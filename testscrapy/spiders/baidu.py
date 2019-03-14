@@ -2,7 +2,6 @@
 import scrapy
 from testscrapy.items import TestscrapyItem
 
-
 # scrapy startproject myspider
 # scrapy genspider baidu baidu.com
 class BaiduSpider(scrapy.Spider):
